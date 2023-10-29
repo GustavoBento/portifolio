@@ -1,0 +1,51 @@
+/* ESTILO SOBRE  */
+
+.sobre {
+    padding: 80px 4%;
+}
+
+.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.img_sobre img {
+    border-radius: 20px;
+}
+
+.txt_sobre {
+    color: #fff;
+}
+
+.txt_sobre_subtitulo {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.txt_sobre_subtitulo span {
+    display: block;
+    color: #00FF08;
+}
+
+.txt_sobre p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.btn_social button{
+    background-color: #00FF08;
+    font-size: 22px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+    margin: 0 5px;
+}
+
+.btn_social button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #00FF08;
+}
