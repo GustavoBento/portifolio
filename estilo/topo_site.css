@@ -1,0 +1,43 @@
+/* TOPO DO SITE */
+
+.topo_do_site {
+    padding: 40px 4%;
+}
+
+.topo_do_site .flex {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.txt_topo_site h1 {
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.txt_topo_site span {
+    color: #00FF08;
+}
+
+.txt_topo_site p {
+    margin: 40px 0;
+}
+
+.img_topo_site img {
+    width: 220px;
+}
+
+.img_topo_site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    }
+}
