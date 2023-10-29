@@ -1,0 +1,32 @@
+/* ESTILO ESPECIALIDADES  */
+
+.especialidades {
+    padding: 20px 4%;
+}
+
+.especialidades .flex {
+    gap: 60px;
+}
+
+.especialidade_box {
+    color: #fff;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.especialidade_box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff78;
+}
+
+.especialidade_box i {
+    font-size: 70px;
+    color: #00FF08;
+}
+
+.especialidade_box_subtitulo {
+    font-size: 28px;
+    margin: 15px 0;
+}

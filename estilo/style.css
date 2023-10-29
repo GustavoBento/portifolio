@@ -19,8 +19,18 @@ body {
     margin: 0 auto;
 }
 
+.titulo {
+    color: #FFF;
+    font-size: 34px;
+    text-align: center;
+}
+
+.titulo span {
+    color: #00FF08;
+}
+
 .btn-contato button {
-    padding: 10px 20px;
+    padding: 10px 40px;
     font-size: 16px;
     font-weight: 600;
     background-color: #00FF08;
@@ -38,34 +48,3 @@ body {
 .flex {
     display: flex;
 }
-
-/* ESTILO DO CABEÇALHO */
-
-header {
-    padding: 20px 4%;
-}
-
-header > .interface {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header a {
-    display: inline-block;
-    color: #5c5c5c;
-    text-decoration: none;
-    transition: .2s;
-}
-
-header a:hover {
-    color: #FFF;
-    transform: scale(1.05);
-}
-
-header nav ul li {
-    display: inline-block;
-    padding: 0 20px;
-    font-size: 12px;
-}
-

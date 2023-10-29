@@ -25,10 +25,6 @@
 }
 
 .img_topo_site img {
-    width: 220px;
-}
-
-.img_topo_site img {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
