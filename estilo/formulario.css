@@ -1,0 +1,50 @@
+/* ESTILO FORMULÁRIO */
+
+.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: #242424;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: 0;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+.btn_enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn_enviar input {
+    width: 120px;
+    background-color: #00FF08;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn_enviar input:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #00FF08;
+}
