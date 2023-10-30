@@ -1,0 +1,28 @@
+/* ESTILO RODAPÉ */
+
+.rodape {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+.rodape .flex {
+    justify-content: space-between;
+}
+
+.line_footer {
+    padding: 20px 0;
+    
+}
+
+.borda {
+    border-top: 2px solid #00FF08;
+}
+
+.line_footer p i{
+    color: #00FF08;
+    font-size: 22px;
+}
+
+.line_footer a {
+    color: #fff;
+}
