@@ -14,6 +14,10 @@
         display: none;
     }
 
+    .btn_abrir_menu {
+        display: block;
+    }
+
     /* TOPO DO SITE  */
     .topo_do_site .flex {
         flex-direction: column-reverse;
@@ -80,4 +84,8 @@
     .line_footer {
         text-align: center;
     }
+    
+    
+    
+
 }

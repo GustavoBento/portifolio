@@ -17,12 +17,16 @@ header a {
     transition: .2s;
 }
 
-header a:hover {
+header nav ul {
+    list-style-type: none;
+}
+
+header nav.interface_menu_desktop a:hover {
     color: #FFF;
     transform: scale(1.05);
 }
 
-header nav ul li {
+header nav.interface_menu_desktop ul li {
     display: inline-block;
     padding: 0 20px;
     font-size: 18px;

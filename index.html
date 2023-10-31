@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="estilo/portfolio.css">
     <link rel="stylesheet" href="estilo/formulario.css">
     <link rel="stylesheet" href="estilo/rodape.css">
+    <link rel="stylesheet" href="estilo/menu_mobile.css">
     <link rel="stylesheet" href="estilo/responsivo.css">
+    <script src="menu.js" defer></script>
 </head>
 <body>
     <header>
@@ -40,6 +42,28 @@
                     <button>Contato</button>
                 </a>
             </div> <!--btn-contato-->
+
+            <div class="btn_abrir_menu" id="btn_menu">
+                <i class="bi bi-list"></i>
+            </div> <!--btn_abrir_menu-->
+
+            <div class="menu_mobile" id="menu_mobile">
+                <div class="btn_fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div> <!--btn_fechar-->
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Especialidades</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projeto</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div> <!--menu_mobile-->
+            <div class="overlay_menu">
+
+            </div> <!--overlay_menu-->
 
         </div> <!-- Interface-->
     </header>
