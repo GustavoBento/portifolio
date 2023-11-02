@@ -14,7 +14,3 @@ menuMobile.addEventListener('click', () => {
 overlay.addEventListener('click', () => {
     menuMobile.classList.remove('abrir_menu')
 })
-
-inputEnviar.addEventListener('pagehide', () => {
-    window.alert('Sua mensagem foi enviada!')
-})
