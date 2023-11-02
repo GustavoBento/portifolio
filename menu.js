@@ -15,6 +15,6 @@ overlay.addEventListener('click', () => {
     menuMobile.classList.remove('abrir_menu')
 })
 
-inputEnviar.addEventListener('submit', () => {
+inputEnviar.addEventListener('load', () => {
     window.alert('Sua mensagem foi enviada!')
 })
