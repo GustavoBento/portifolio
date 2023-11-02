@@ -169,13 +169,17 @@
         <section class="formulario">
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
-                <form action="https://formsubmit.co/gustavo_grb-@hotmail.com" method="post">
-                    <input type="text" name="" id="" placeholder="Seu nome completo" required autocomplete="name">
-                    <input type="email" name="" id="" placeholder="Seu e-mail" required autocomplete="email">
-                    <input type="tel" name="" id="" placeholder="Seu telefone" autocomplete="tel-national">
-                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <!-- envio de formulario  -->
+                    <input type="hidden" name="accessKey" value="a976fadf-cde9-440c-bd45-55ddf694c492 ">
+                    <input type="hidden" name="redirectTo" value="https://gustavobento.github.io/portfolio/">
+                    <!-- envio de formulario  -->
+                    <input type="text" name="name" id="" placeholder="Seu nome completo" required autocomplete="name">
+                    <input type="email" name="email" id="" placeholder="Seu e-mail" required autocomplete="email">
+                    <input type="tel" name="phone" id="" placeholder="Seu telefone" autocomplete="tel-national">
+                    <textarea name="message" id="" placeholder="Sua mensagem" required></textarea>
                     <div class="btn_enviar">
-                        <input type="submit" value="ENVIAR">
+                        <input type="submit" value="ENVIAR" class="btn_enviar_input">
                     </div>
                 </form>
             </div> <!--interface-->
