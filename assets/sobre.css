@@ -1,0 +1,28 @@
+.sobre {
+    padding: 40px 4%;
+}
+
+.sobre .flex {
+    align-items: center;
+}
+
+.sobre_foto_img {
+    border-radius: 20px;
+}
+
+.sobre_txt {
+    padding: 0 60px;
+}
+
+.sobre_txt_titulo {
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.sobre_txt_titulo span {
+    color: var(--cor-verde);
+}
+
+.sobre_txt_paragraph {
+    margin: 20px 0;
+}

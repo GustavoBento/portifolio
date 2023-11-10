@@ -1,3 +1,41 @@
-.especialidades_box i {
+.especialidades {
+    padding: 40px 4%;
+}
+
+.titulo {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo span {
     color: var(--cor-verde);
 }
+
+.especialidades .flex {
+    gap: 90px;
+}
+
+
+.especialidades_box {
+    padding: 40px;
+    border-radius: 20px;
+    transition: .2s
+}
+
+.especialidades_box:hover {
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.458);
+    transform: scale(1.05);
+
+}
+
+.especialidades_box i {
+    color: var(--cor-verde);
+    font-size: 60px;
+}
+
+.especialidades_box_subtitulo {
+    font-size: 29px;
+    margin: 20px 0px;
+}
+
