@@ -1,0 +1,40 @@
+.topo_do_site {
+    padding: 40px 4%;
+}
+
+.topo_do_site .flex {
+    justify-content: center;
+    align-items: center;
+}
+
+.topo_do_site_txt {
+    padding-right: 100px;
+}
+
+.topo_do_site_txt_titulo {
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo_do_site_txt_titulo span {
+    color: var(--cor-verde);
+}
+
+.topo_do_site_txt_paragraph {
+    margin: 40px 0;
+}
+
+.topo_do_site_images_img {
+    position: relative;
+    animation: fazerFlutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes fazerFlutuar {
+    0% {
+        top: 0
+    }
+
+    100% {
+        top:30px
+    }
+}

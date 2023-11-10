@@ -1,0 +1,50 @@
+.cabecalho {
+    padding: 20px 4%;
+}
+
+.cabecalho .flex {
+    justify-content: space-between;
+}
+
+.cabecalho_menu {
+    list-style-type: none;
+    align-self: center;
+}
+
+.cabecalho_menu_item {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.cabecalho_menu_item a {
+    color: rgba(255, 255, 255, 0.332);
+    font-size: 20px;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.cabecalho_menu_item a:hover {
+    color: #fff;
+}
+
+.btn_contato {
+    align-self: center;
+    margin-right: 20px;
+}
+
+.btn_contato button {
+    background-color: var(--cor-verde);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 20px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.btn_contato button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px var(--cor-verde);
+}
+
